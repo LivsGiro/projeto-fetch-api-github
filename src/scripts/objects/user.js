@@ -1,5 +1,3 @@
-//import { getAndExtractEvents } from '../services/events.js';
-
 const user = {
     avatarUrl: '',
     name: '',
@@ -24,7 +22,6 @@ const user = {
     },
    async setEvents(events) {
         this.events = events
-        console.log(events)
   }};
 
 export { user }
